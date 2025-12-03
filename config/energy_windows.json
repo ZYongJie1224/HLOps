@@ -1,0 +1,35 @@
+{
+  "name": "HLOps",
+  "projectPath": "@",
+  "frameworkPath": "",
+  "assetsDir": "assets",
+  "outputFilename": "HLOps",
+  "libemfs": "libs",
+  "info": {
+    "manifest": "@/HLOps.manifest",
+    "icon": "@/resources/icon.ico",
+    "companyName": "HLOps",
+    "productName": "HLOps",
+    "fileVersion": "1.0.0",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright.....",
+    "comments": "Built using ENERGY (https://github.com/energye/energy)",
+    "fileDescription": "Built using ENERGY (https://github.com/energye/energy)"
+  },
+  "nsis": {
+    "include": [],
+    "exclude": ["cache"],
+    "shortCutName": "HLOps",
+    "icon": "@/resources/icon.ico",
+    "unIcon": "@/resources/icon.ico",
+    "license": "",
+    "language": "english",
+    "requestExecutionLevel": "admin",
+    "compress": "7za",
+    "compressName": "framework.7z"
+  },
+  "author": {
+    "name": "yanghy",
+    "email": "snxamdf@126.com"
+  }
+}
