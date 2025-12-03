@@ -9,12 +9,12 @@
 
 ## 📋 简介
 
-HLOps 致力于解决 Windows 服务器上的自动化运维难题。项目采用 Go 语言开发，具备高性能和易部署的特点。
+HLOps 致力于解决 Windows 系统上的自动化运维部署。项目采用 Go 语言以及beego框架开发，具备高性能和易部署的特点。
 
 ## 🛠️ 技术栈
 
 - **核心语言**: Go (Golang)
-- **模板引擎**: Smarty
+- **后端框架**: Beego
 - **前端技术**: HTML, CSS
 - **架构模式**: MVC (Model-View-Controller)
 
@@ -22,13 +22,13 @@ HLOps 致力于解决 Windows 服务器上的自动化运维难题。项目采�
 
 ```text
 HLOps/
-├── conf/           # 配置文件目录
-├── config/         # 配置加载与初始化
+├── conf/           # Beego配置文件目录
+├── config/         # WebKit配置加载与初始化
 ├── controllers/    # 控制器层 (业务逻辑入口)
 ├── models/         # 数据模型层
 ├── services/       # 服务层 (核心业务逻辑)
 ├── routers/        # 路由定义
-├── views/          # 视图模板 (Smarty)
+├── views/          # 视图模板 
 ├── static/         # 静态资源 (CSS, JS, Images)
 ├── main.go         # 程序入口
 ├── HLOps.exe       # 预编译的可执行文件
@@ -60,7 +60,3 @@ go run main.go
 
 欢迎提交 Issue 或 Pull Request 来帮助完善这个项目。由于项目尚在初期，请在提交大规模更改前先发起讨论。
 
-## 📄 许可证
-
-[MIT License](LICENSE) (待补充)
-```
